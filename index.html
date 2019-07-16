@@ -2,13 +2,13 @@
 	<head>
     	<script type="text/javascript" src="script.js"></script>
 		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
   	</head>
   	<body>
-    	Hello!  This is my webpage!
-	<div class="container">
-		<h3>Data binding example</h3>
-		<textarea id="dataToBind" class="form-control"></textarea>
-		<p id="showBoundData"></p>
-	</div>
+    	<div class="container">
+  <h3> Data binding example with Event Listeners </h3>
+  <textarea ng-model="dataToBind" class="form-control"></textarea>
+  <p> {{ dataToBind }} </p>
+</div>
   	</body>
 </html>
