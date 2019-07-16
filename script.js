@@ -5,4 +5,5 @@ var showElement = document.getElementById("showBoundData");
 if(inputElement){
   inputElement.addEventListener("keyup", function() {
     showElement.innerHTML = inputElement.value.toString();
-});
+  });
+}
